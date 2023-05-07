@@ -1,0 +1,21 @@
+{
+    "name": "rasimcemaytan/waiting-list",
+    "authors": [
+        {
+            "name": "rasimcemaytan",
+            "email": "cemaytan_01@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "app/db/connect.php"
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "classmap": [
+            "app/"
+          ]
+    },
+    "require": {}
+}
